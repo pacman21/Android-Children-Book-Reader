@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#73A4FF"
+    android:padding="20dip">
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#73A4FF"
+        android:layout_weight="3.50" />
+     
+   	<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp">
+		
+   	    <LinearLayout
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:orientation="vertical" 
+   	        android:layout_weight="1"
+   	        android:gravity="center">
+
+	   		<Button
+	   		    android:id="@+id/prev"
+	   		    android:layout_width="75dp"
+	   		    android:layout_height="50dp"
+	   		    android:background="@drawable/prev_button"
+	   		    android:text="  " />
+
+     	</LinearLayout>
+     	
+   	    <LinearLayout
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:orientation="vertical" 
+   	        android:layout_weight="1"
+   	        android:gravity="center">
+	        <Button
+	            android:id="@+id/btnPlay"
+	            android:layout_width="75dp"
+	            android:layout_height="50dp"
+	            android:textColor="#003BA6"
+	            android:background="@drawable/play_button"
+	            android:text=" " />
+		</LinearLayout>
+		
+   	    <LinearLayout
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:orientation="vertical" 
+   	        android:layout_weight="1"
+   	        android:gravity="center">
+	        <Button
+	            android:id="@+id/btnInvite"
+	            android:layout_width="50dp"
+	            android:layout_height="50dp"
+	            android:background="@drawable/record_invite"
+	            android:text="  " />
+		</LinearLayout>
+		
+   	    <LinearLayout
+   	        android:layout_width="wrap_content"
+   	        android:layout_height="wrap_content"
+   	        android:orientation="vertical" 
+   	        android:layout_weight="1"
+   	        android:gravity="center">
+
+   	        <Button
+   	            android:id="@+id/next"
+   	            android:layout_width="75dp"
+   	            android:layout_height="50dp"
+   	            android:background="@drawable/next_button"
+   	            android:text="  " />
+
+		</LinearLayout>
+		
+    </LinearLayout>
+</LinearLayout>
